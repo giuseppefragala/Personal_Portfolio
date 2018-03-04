@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+	<head>
+		<meta charset="UTF-8">
+	  	<title>FreeCodeCamp : Personal Portfolio Webpage example</title>
+	    <title>Personal Portfolio Webpage example</title>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="jumbotron">
+				<!-- navbar --> 
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+					<div class="container-fluid">
+				    	<div class="navbar-header">
+				        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"></button>
+				      		<a class="navbar-brand scroll-active" href="#" >Sisamoma</a>
+				    	</div>
+					    <div>
+					      <div class="collapse navbar-collapse" id="myNavbar">
+					        <ul class="nav navbar-nav">
+					          <li><a href="#sectionAbout">About</a></li>
+					          <li><a href="#sectionPortfolio">Portfolio</a></li>
+					          <li><a href="#sectionContact">Contact</a></li>          
+					        </ul>
+					      </div>
+					    </div>
+				  </div>
+				</nav>    
+				 <!-- navbar -->     
+				    
+				    
+				<div id="sectionAbout" class="container-fluid">
+				  <h1 class="text-center">About</h1>
+				  <p class="text-center">Software developer, with experience in database applications, data integration and billing systems for Telco companies</p>
+				</div>
+				<div id="sectionPortfolio" class="container-fluid">
+					<h1 class="text-center">Portfolio</h1>
+				  	<div class="container fluid">
+					  <div class="row">
+					    <div class="col-sm-6"><img class="img-responsive" src="http://www.sisamoma.com/images/portfolio01.jpg" alt=""></div>
+					    <div class="col-sm-6"><img class="img-responsive" src="http://www.sisamoma.com/images/portfolio02.jpg" alt=""></div>
+					  </div>
+					</div>
+				</div>
+				<div id="sectionContact" class="container-fluid">
+				  <h1 class="text-center">Contact</h1>
+				  
+				 <!--/#contact-->
+				  <section id="contact">
+				    <div id="google-map" class="wow fadeIn" data-latitude="43.685605" data-longitude="10.48716405" data-wow-duration="1000ms" data-wow-delay="400ms">
+				    </div>
+				    <div id="contact-us" class="parallax">
+				      <div class="container">
+				        <div class="row">
+				          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+				            <p></p>
+				          </div>
+				        </div>
+				        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+				          <div class="row">
+				            <div class="col-sm-6">
+				              <form id="main-contact-form" name="main-contact-form" method="post" action="sendemail.php">
+				                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+				                  <div class="col-sm-6">
+				                    <div class="form-group">
+				                      <input type="text" id="name" name="name" class="form-control" placeholder="Name" required="required">
+				                    </div>
+				                  </div>
+				                  <div class="col-sm-6">
+				                    <div class="form-group">
+				                      <input type="email" id="email" name="email" class="form-control" placeholder="Email" required="required">
+				                    </div>
+				                  </div>
+				                </div>
+				                <div class="form-group">
+				                  <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required="required">
+				                </div>
+				                <div class="form-group">
+				                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required="required"></textarea>
+				                </div>                        
+				                <div class="form-group">
+				                  <button id="sendButton" type="submit" class="btn btn-success">Send message</button>
+				                </div>
+				              </form>   
+				            </div>
+				            <div class="col-sm-6">
+				              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+				                <p></p>
+				                <ul class="text-left">
+				                  <p>Please feel free to contact me if you need more information.</p>
+				                  <p>I would also love to know about your story.</p>
+				                  </ul>
+				              </div>                            
+				            </div>
+				          </div>
+				        </div>
+				      </div>
+				    </div>        
+				  </section>
+				  <!--/#contact-->  
+				</div>
+			</div>
+		</div>
+
+
+		<!--/#footer-->
+		<footer id="footer">
+		<div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+		  <div class="container text-center">
+		    <div class="footer-logo">
+		      <a href="#"><img class="img-responsive" src="http://www.sisamoma.com/images/logo6.png" alt=""></a>
+		    </div>
+		    <div class="social-icons">
+	      		<ul>
+	        		<li>
+	        			<a rel="nofollow" rel="noreferrer" class="button linkedin" target="_blank" href="https://it.linkedin.com/in/giuseppefragala">
+	        				<i class="fa fa-fw fa-linkedin"></i>
+	        			</a>
+	        		</li>
+	        		<li>
+	        			<a rel="nofollow" rel="noreferrer" class="button github" target="_blank" href="https://github.com/giuseppefragala">
+	        				<i class="fa fa-fw fa-github"></i>
+	        			</a>
+	        		</li>
+	      		</ul>
+		    </div>
+		  </div>
+		</div>
+		<div class="footer-bottom">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-sm-12 text-center">
+		        <p>Giuseppe Fragalà</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		</footer>
+		<!--/#footer-->
+
+
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+		<script  src="js/index.js"></script>
+
+	</body>
+
+</html>
